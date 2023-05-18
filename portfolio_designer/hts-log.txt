@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 18 May 2023 22:56:07 at https://preview.colorlib.com/theme/jackson/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://preview.colorlib.com/theme/jackson/ -O1 "C:\My Web Sites\portfolio_designer" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:56:29	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/favicon.ico (from https://preview.colorlib.com/theme/jackson/)
+22:56:32	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/fonts/flaticon/font/flaticon.css (from https://preview.colorlib.com/theme/jackson/)
+22:56:36	Error: 	"Bad Request" (400) at link https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z= (from https://preview.colorlib.com/theme/jackson/)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/work.html (from https://preview.colorlib.com/theme/jackson/)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/blog.html (from https://preview.colorlib.com/theme/jackson/)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/css/fonts/icomoon.eot?6py85u (from https://preview.colorlib.com/theme/jackson/css/icomoon.css)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/css/fonts/icomoon.ttf?6py85u (from https://preview.colorlib.com/theme/jackson/css/icomoon.css)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/css/fonts/icomoon.woff?6py85u (from https://preview.colorlib.com/theme/jackson/css/icomoon.css)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/css/fonts/icomoon.svg?6py85u (from https://preview.colorlib.com/theme/jackson/css/icomoon.css)
+22:56:36	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/css/owl.video.play.png (from https://preview.colorlib.com/theme/jackson/css/owl.carousel.min.css)
+22:56:37	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/jackson/images/loader.gif (from https://preview.colorlib.com/theme/jackson/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 30 seconds : 48 links scanned, 36 files written (3593870 bytes overall) [2756168 bytes received at 91872 bytes/sec], 1319827 bytes transferred using HTTP compression in 32 files, ratio 32%, 16.0 requests per connection
+(11 errors, 0 warnings, 0 messages)
