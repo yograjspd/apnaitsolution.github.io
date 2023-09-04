@@ -96,7 +96,7 @@ video {
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     transition: all 200ms ease-out;
     position: fixed;
     pointer-events: none;
@@ -110,7 +110,7 @@ video {
     width: 6px;
     height: 6px;
     border-radius: 100%;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     position: fixed;
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -119,7 +119,7 @@ video {
 }
 
 .hover {
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     height: 70px;
     width: 70px;
     border: 1px solid transparent;
@@ -146,7 +146,7 @@ video {
 .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out
@@ -296,7 +296,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
-    color: #d90a2c;
+    color: #FD9D3C;
     margin-bottom: 15px;
     text-transform: uppercase
 }
@@ -308,7 +308,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .title h2 {
@@ -346,7 +346,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 65px;
     letter-spacing: .05em;
     text-transform: uppercase;
-    -webkit-text-stroke: 2px #d90a2c;
+    -webkit-text-stroke: 2px #FD9D3C;
     -webkit-text-fill-color: transparent
 }
 
@@ -373,8 +373,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 16px;
     text-align: center;
     text-transform: capitalize;
-    color: #d90a2c;
-    border-bottom: 1px solid #d90a2c;
+    color: #FD9D3C;
+    border-bottom: 1px solid #FD9D3C;
     padding-bottom: 5px;
     margin-bottom: 5px;
     display: inline-block
@@ -414,7 +414,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%);
     z-index: 1;
     -webkit-transition: all .5s ease-out 0s;
     -moz-transition: all .5s ease-out 0s;
@@ -457,7 +457,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     text-align: center;
     color: #fff;
     display: inline-block;
-    background-color: #dd0429;
+    background-color: #FF7136;
     padding: 15px 30px;
     text-transform: capitalize;
     z-index: 1;
@@ -481,7 +481,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     height: 0%;
     top: 50%;
     left: 50%;
-    background-color: #000;
+    background-color: #FF7136;
     transform: translate(-50%, -50%) rotate(-45deg);
     z-index: -1;
     -webkit-transition: all .5s ease-out 0s;
@@ -492,8 +492,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .cmn-btn-layout3 a:hover {
-    color: #d90a2c;
-    box-shadow: 0 0 5px rgba(255, 255, 255, .3)
+    color:  #070707;
+    box-shadow: 0 0 5px #FF7136
 }
 
 .cmn-btn-layout3 a:hover:before {
@@ -533,7 +533,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 60px;
     letter-spacing: .05em;
     text-transform: uppercase;
-    -webkit-text-stroke: 2px #d90a2c;
+    -webkit-text-stroke: 2px #FD9D3C;
     -webkit-text-fill-color: transparent;
     line-height: 1;
     margin-bottom: 20px
@@ -561,7 +561,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 15px;
     text-transform: capitalize;
     display: inline-block;
-    color: #d90a2c;
+    color: #FD9D3C;
     padding-right: 50px
 }
 
@@ -589,9 +589,9 @@ only screen and (min-width:992px) and (max-width:1199px) {
     height: 40px;
     width: 40px;
     display: block;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     border-radius: 50%;
-    color: #d90a2c;
+    color: #FD9D3C;
     position: relative;
     line-height: 40px;
     font-size: 11px;
@@ -691,11 +691,11 @@ only screen and (min-width:768px) and (max-width:991px),
 }
 
 .main-nav ul li a.active {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .main-nav ul li a:hover {
-    color: #d90a2c
+    color: #FF7136
 }
 
 .main-nav ul li i {
@@ -757,11 +757,11 @@ only screen and (min-width:768px) and (max-width:991px),
 }
 
 .main-nav ul li ul.sub-menu>li a.active {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .main-nav ul li ul.sub-menu>li a:hover {
-    color: #d90a2c;
+    color: #FD9D3C;
     margin-left: 10px
 }
 
@@ -849,7 +849,7 @@ only screen and (min-width:768px) and (max-width:991px),
     position: relative;
     height: 20px;
     width: 20px;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     box-sizing: border-box;
     opacity: .6
 }
@@ -859,7 +859,7 @@ only screen and (min-width:768px) and (max-width:991px),
     content: "";
     height: 10px;
     width: 10px;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -1383,7 +1383,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     display: inline-block;
     line-height: 1;
     padding: 0 15px;
-    border-right: 1px solid #d90a2c;
+    border-right: 1px solid #FD9D3C;
     -webkit-transition: all .5s ease-out 0s;
     -moz-transition: all .5s ease-out 0s;
     -ms-transition: all .5s ease-out 0s;
@@ -1398,7 +1398,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .social-media .social-list li a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .social-media .social-list li:last-child a {
@@ -1535,7 +1535,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-service:hover span {
-    -webkit-text-stroke: 2px #d90a2c;
+    -webkit-text-stroke: 2px #FD9D3C;
     -webkit-text-fill-color: transparent
 }
 
@@ -1563,7 +1563,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .service-icon i {
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     height: 65px;
     width: 65px;
     display: inline-block;
@@ -1682,7 +1682,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .service-content a {
     display: inline-block;
-    color: #d90a2c;
+    color: #FD9D3C;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -1941,7 +1941,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .signle-skill .progress-bar-circle div span {
-    color: #d90a2c;
+    color: #FD9D3C;
     position: absolute;
     font-size: 18px;
     font-weight: 700;
@@ -1962,20 +1962,20 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .signle-skill .progress-bar-circle .rotate {
     clip: rect(0 35px 70px 0);
-    background-color: #d90a2c !important
+    background-color: #FD9D3C !important
 }
 
 .signle-skill .progress-bar-circle .left {
     clip: rect(0 35px 70px 0);
     opacity: 1;
-    background-color: #d90a2c !important
+    background-color: #FD9D3C !important
 }
 
 .signle-skill .progress-bar-circle .right {
     clip: rect(0 35px 70px 0);
     transform: rotate(180deg);
     opacity: 0;
-    background-color: #d90a2c !important
+    background-color: #FD9D3C !important
 }
 
 .features-count {
@@ -2100,7 +2100,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     font-size: 20px;
     text-align: center;
     text-transform: capitalize;
-    color: #d90a2c;
+    color: #FD9D3C;
     display: block;
     margin-bottom: 15px
 }
@@ -2198,7 +2198,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     border: 2px solid transparent;
     text-transform: uppercase;
     letter-spacing: 1.1px;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     -webkit-transition: all .5s ease-out 0s;
     -moz-transition: all .5s ease-out 0s;
     -ms-transition: all .5s ease-out 0s;
@@ -2223,9 +2223,9 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .subscribe-form form input[type=submit]:hover {
     color: #17161a;
-    border: 2px solid #d90a2c;
+    border: 2px solid #FD9D3C;
     background: 0 0;
-    box-shadow: 0 0 20px #d90a2c 1.05%, #730000 100%
+    box-shadow: 0 0 20px #FD9D3C 1.05%, #730000 100%
 }
 
 .subscribe-form form input[type=email] {
@@ -2367,7 +2367,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .swiper.portfolio-slider .swiper-pagination-bullet {
     height: 15px;
     width: 15px;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     box-sizing: border-box;
     background: 0 0;
     opacity: 1
@@ -2377,7 +2377,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     position: relative;
     height: 15px;
     width: 15px;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     box-sizing: border-box
 }
 
@@ -2386,7 +2386,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     content: "";
     height: 5px;
     width: 5px;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -2419,7 +2419,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .swiper.portfolio-slider .swiper-button-next:hover,
 .swiper.portfolio-slider .swiper-button-prev:hover {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .swiper.portfolio-slider .swiper-button-next::after,
@@ -2566,7 +2566,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .single-portfolio .portfolio-inner .portfolio-hover a.case-btn {
     display: inline-block;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     box-sizing: border-box;
     border-radius: 30px;
     padding: 5px 15px;
@@ -2691,8 +2691,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .video-demo .play-btn a:hover {
     color: #fff;
-    border: 1px solid #d90a2c;
-    background-color: #d90a2c
+    border: 1px solid #FD9D3C;
+    background-color: #FD9D3C
 }
 
 .valuable-skills img {
@@ -2740,7 +2740,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .valuable-skills .signle-bar .barfiller .fill {
-    background: #d90a2c !important;
+    background: #FD9D3C !important;
     border-radius: 30px
 }
 
@@ -2772,7 +2772,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     bottom: 30px !important;
     left: 0 !important;
     width: auto !important;
-    color: #d90a2c !important
+    color: #FD9D3C !important
 }
 
 .swiper.testimonial-slider .swiper-pagination-current {
@@ -2785,7 +2785,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .swiper.testimonial-slider .swiper-pagination-total {
     font-size: 20px;
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .swiper.testimonial-slider .swiper-button-next,
@@ -3003,7 +3003,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .signle-news:hover .tag a {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .signle-news .news-content .author {
@@ -3127,7 +3127,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     content: "";
     height: 40px;
     width: 40px;
-    background: #d90a2c;
+    background: #FD9D3C;
     opacity: .35;
     border-radius: 50%;
     left: -10px;
@@ -3141,7 +3141,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .view-btn a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .lets-talk {
@@ -3241,7 +3241,7 @@ body.dark {
 }
 
 .signle-news.dark .view-btn a {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .out-story {
@@ -3693,7 +3693,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .swiper.work-process .swiper-button-next:hover,
 .swiper.work-process .swiper-button-prev:hover {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .swiper.work-process .swiper-button-next::after,
@@ -3837,13 +3837,13 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .nav-pills .nav-link:hover {
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%) !important;
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%) !important;
     box-shadow: inset 0 0 10px rgba(6, 6, 6, .15);
     border-radius: 50px
 }
 
 .nav-pills .nav-link.active {
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%) !important;
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%) !important;
     box-shadow: inset 0 0 10px rgba(6, 6, 6, .15);
     border-radius: 50px
 }
@@ -3913,7 +3913,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-price-box h3:before {
     position: absolute;
     content: "";
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%);
     width: 150px;
     height: 2px;
     left: 50%;
@@ -3947,7 +3947,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-price-box h2 sub {
     font-size: 16px;
     font-weight: 400;
-    color: #d90a2c;
+    color: #FD9D3C;
     text-transform: capitalize
 }
 
@@ -3974,7 +3974,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     letter-spacing: .03em;
     color: #fff;
     display: inline-block;
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%);
     border-radius: 30px;
     min-width: 200px;
     padding: 15px 30px;
@@ -4102,7 +4102,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .service-list li a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .service-list li:last-child a {
@@ -4132,7 +4132,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     position: absolute;
     width: 70px;
     height: 50px;
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%);
     border-radius: 0 3px 3px 0;
     border: none;
     color: #fff;
@@ -4266,11 +4266,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .project-filter-tab li.active {
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%)
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%)
 }
 
 .project-filter-tab li:hover {
-    background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%)
+    background: linear-gradient(90deg, #FD9D3C 1.05%, #730000 100%)
 }
 
 .single-portfolio.masonary {
@@ -4492,7 +4492,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .project-single-step:hover b {
     color: #fff;
-    background: #d90a2c
+    background: #FD9D3C
 }
 
 .project-single-step:hover .project-step-img img {
@@ -4554,7 +4554,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .swiper.releted-project-slider .swiper-button-next:hover,
 .swiper.releted-project-slider .swiper-button-prev:hover {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 @media(max-width:767px) {
@@ -4616,7 +4616,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .office-info:hover .icon {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .office-info:hover .icon i {
@@ -4626,7 +4626,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .office-info .icon {
     width: 80px;
     height: 80px;
-    background-color: #d90a2c30;
+    background-color: #FD9D3C30;
     border-radius: 50%;
     text-align: center;
     line-height: 80px;
@@ -4640,7 +4640,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .office-info .icon i {
-    color: #d90a2c;
+    color: #FD9D3C;
     font-size: 45px;
     -webkit-transition: all .5s ease-out 0s;
     -moz-transition: all .5s ease-out 0s;
@@ -4700,7 +4700,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .office-info a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .contact-information {
@@ -4755,7 +4755,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .contact-form form button[type=submit] {
     max-width: 180px;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     font-weight: 600;
     font-size: 16px;
     line-height: 25px;
@@ -4775,7 +4775,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .contact-form form button[type=submit]:hover {
     color: #272727;
     background-color: transparent;
-    border: 2px solid #d90a2c
+    border: 2px solid #FD9D3C
 }
 
 .google-map {
@@ -4886,7 +4886,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .widget-cnt:hover .wc h6 a {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .tag-list {
@@ -4916,8 +4916,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .tag-list li a:hover {
     color: #fff;
-    border: 1px solid #d90a2c;
-    background-color: #d90a2c
+    border: 1px solid #FD9D3C;
+    background-color: #FD9D3C
 }
 
 .widget-banner {
@@ -5009,13 +5009,13 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .pagination li a:hover {
-    border: 1px solid #d90a2c;
-    color: #d90a2c
+    border: 1px solid #FD9D3C;
+    color: #FD9D3C
 }
 
 .pagination li.active a {
-    border: 1px solid #d90a2c;
-    color: #d90a2c
+    border: 1px solid #FD9D3C;
+    color: #FD9D3C
 }
 
 .signle-news-list {
@@ -5232,7 +5232,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-weight: 600;
     font-size: 15px;
     letter-spacing: .03em;
-    color: #d90a2c;
+    color: #FD9D3C;
     padding-left: 40px
 }
 
@@ -5241,7 +5241,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     content: "";
     left: 0;
     width: 30px;
-    border: 1px solid #d90a2c;
+    border: 1px solid #FD9D3C;
     top: 50%;
     transform: translateY(-50%);
     opacity: .5
@@ -5295,11 +5295,11 @@ only screen and (min-width:768px) and (max-width:991px),
 
 .tags a:hover {
     color: #fff;
-    border: 1px solid #d90a2c;
-    background-color: #d90a2c
+    border: 1px solid #FD9D3C;
+    background-color: #FD9D3C
 }
 
-.share-now span {
+/* .share-now span {
     text-align: center;
     border: 1px solid #000;
     border-radius: 30px;
@@ -5310,7 +5310,7 @@ only screen and (min-width:768px) and (max-width:991px),
     font-size: 16px;
     font-weight: 600;
     cursor: pointer
-}
+} */
 
 .share-now .social-share {
     list-style: none;
@@ -5345,7 +5345,7 @@ only screen and (min-width:768px) and (max-width:991px),
 }
 
 .share-now .social-share li a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .share-now:hover .social-share {
@@ -5455,7 +5455,7 @@ only screen and (min-width:768px) and (max-width:991px),
     }
 }
 
-.reply a {
+/* .reply a {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: .03em;
@@ -5467,10 +5467,10 @@ only screen and (min-width:768px) and (max-width:991px),
     -ms-transition: all .5s ease-out 0s;
     -o-transition: all .5s ease-out 0s;
     transition: all .5s ease-out 0s
-}
+} */
 
 .reply a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .reply a img {
@@ -5544,7 +5544,7 @@ textarea {
 
 .comment-form form input[type=submit] {
     max-width: 200px;
-    background: #d90a2c;
+    background: #FD9D3C;
     border: none;
     font-weight: 600;
     font-size: 16px;
@@ -5561,7 +5561,7 @@ textarea {
 
 .comment-form form input[type=submit]:hover {
     color: #000;
-    border: 2px solid #d90a2c;
+    border: 2px solid #FD9D3C;
     background: 0 0
 }
 
@@ -5606,7 +5606,7 @@ textarea {
 }
 
 .error-wrapper .error-content h2 {
-    -webkit-text-stroke: 2px #d90a2c;
+    -webkit-text-stroke: 2px #FD9D3C;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
     font-size: 40px;
@@ -5834,7 +5834,7 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 }
 
 .subscribe-mail form input[type=submit]:hover {
-    background-color: #d90a2c
+    background-color: #FD9D3C
 }
 
 .social-icons {
@@ -5889,7 +5889,7 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 }
 
 .social-icons li a:hover {
-    background: #d90a2c
+    background: #FD9D3C
 }
 
 .comming-soon-right {
@@ -5955,7 +5955,7 @@ footer {
     position: absolute;
     content: "";
     width: 100%;
-    border: 1.5px solid #d90a2c;
+    border: 1.5px solid #FD9D3C;
     left: 0;
     bottom: -2px
 }
@@ -6025,7 +6025,7 @@ footer {
 }
 
 .social-media-icons li a:hover {
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -6077,7 +6077,7 @@ footer {
     left: -20px;
     height: 10px;
     width: 10px;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
@@ -6089,7 +6089,7 @@ footer {
 }
 
 .footer-menu li a:hover {
-    color: #d90a2c;
+    color: #FD9D3C;
     padding-left: 15px
 }
 
@@ -6152,7 +6152,7 @@ footer {
 
 .phone a:hover,
 .email a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .num-icon,
@@ -6173,7 +6173,7 @@ footer {
 .num-icon i,
 .mail-icon i,
 .address-icon i {
-    color: #d90a2c;
+    color: #FD9D3C;
     font-size: 20px
 }
 
@@ -6232,7 +6232,7 @@ footer {
 }
 
 .footer-bottom .copy-txt span a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .footer-bottom .footer-bottom-menu {
@@ -6302,7 +6302,7 @@ footer {
 }
 
 .footer-bottom .footer-bottom-menu li a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .footer-bottom .footer-bottom-menu li:last-child a:before {
@@ -6401,7 +6401,7 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 }
 
 .header-right .social-media-layout3 li a:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .header-right .cmn-btn-layout3 {
@@ -6565,7 +6565,7 @@ only screen and (min-width:768px) and (max-width:991px),
 
 .swiper.hero-slider-3 .swiper-button-prev-c:hover svg path,
 .swiper.hero-slider-3 .swiper-button-next-c:hover svg path {
-    fill: #d90a2c
+    fill: #FD9D3C
 }
 
 .hero-content-layout3 {
@@ -6650,7 +6650,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     display: inline-block;
     text-transform: uppercase;
     color: #fff;
-    border: 2px solid #dd0429;
+    border: 2px solid #FD9D3C;
     box-sizing: border-box;
     padding: 15px 30px;
     -webkit-transition: all .5s ease-out 0s;
@@ -6684,7 +6684,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     height: 0%;
     top: 50%;
     left: 50%;
-    background-color: #000;
+    background-color: #FF7136;
     transform: translate(-50%, -50%) rotate(-45deg);
     z-index: -1;
     -webkit-transition: all .5s ease-out 0s;
@@ -6695,8 +6695,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .hero-content-layout3 .btn-manager a:hover {
-    color: #d90a2c;
-    border: 2px solid #000;
+    color: #ffffff;
+    border: 2px solid #FF7136;
     box-shadow: 0 0 5px rgba(255, 255, 255, .3)
 }
 
@@ -6934,10 +6934,10 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 16px;
     display: inline-block;
     text-transform: uppercase;
-    color: #dd0429;
+    color: #FD9D3C;
     margin-bottom: 10px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #d90a2c
+    border-bottom: 1px solid #FD9D3C
 }
 
 .fini-about-content h2 {
@@ -7163,13 +7163,13 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .fini-service:hover span {
-    -webkit-text-stroke: 1px #d90a2c;
+    -webkit-text-stroke: 1px #FD9D3C;
     -webkit-text-fill-color: transparent
 }
 
 .fini-service:hover h4,
 .fini-service:hover a {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .count-layout3 {
@@ -7259,7 +7259,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     top: 50%;
     height: 1px;
     width: 100%;
-    background-color: #d90a2c;
+    background-color: #FD9D3C;
     transform: translateY(-50%);
     visibility: hidden;
     opacity: 0;
@@ -7271,7 +7271,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .project-item-menu li.active {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .project-item-menu li.active:before {
@@ -7280,7 +7280,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .project-item-menu li:hover {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .project-item-menu li:hover:before {
@@ -7466,11 +7466,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .swiper.testimonial2-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #d90a2c !important
+    background-color: #FD9D3C !important
 }
 
 .swiper.testimonial2-slider .swiper-pagination .swiper-pagination-bullet-active:before {
-    border: 1px solid #d90a2c
+    border: 1px solid #FD9D3C
 }
 
 .single-slide h4 {
@@ -7581,11 +7581,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-articale:hover .articale-content h4 a {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 .single-articale:hover .articale-content a {
-    color: #d90a2c
+    color: #FD9D3C
 }
 
 @media(max-width:767px) {
@@ -7714,7 +7714,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
         text-align: left;
         padding-top: 20px;
         display: block;
-        border-bottom: 1px solid #d90a2c;
+        border-bottom: 1px solid #FD9D3C;
         padding-bottom: 8px
     }
 
